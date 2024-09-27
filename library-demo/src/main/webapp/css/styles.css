@@ -1,0 +1,58 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa; /* Light background */
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    margin-bottom: 20px; /* Space below navbar */
+}
+
+/* Button Styles */
+.custom-btn {
+    background-color: black; /* Default button background */
+    color: white; /* Button text color */
+    border-radius: 20px; /* Rounded corners for squircle shape */
+    padding: 10px 20px; /* Padding for buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+    margin-right: 10px; /* Space between buttons */
+}
+
+.custom-btn:hover {
+    background-color: #44b6cc; /* Hover color */
+}
+
+/* Header Styles */
+header {
+    padding: 50px 0; /* Padding for the header */
+}
+
+h1 {
+    font-size: 2.5rem; /* Font size for main heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+h2 {
+    font-size: 1.75rem; /* Font size for secondary heading */
+    margin: 30px 0 15px; /* Space above and below */
+}
+
+/* Video Styles */
+.library-video {
+    max-width: 60%; /* Set max width for the video */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center alignment */
+    margin: 20px auto; /* Center the video */
+    pointer-events: none; /* Prevent interaction with the video */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa; /* Footer background */
+    padding: 20px 0; /* Padding for footer */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}

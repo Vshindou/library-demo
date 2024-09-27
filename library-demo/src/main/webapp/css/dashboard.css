@@ -1,0 +1,27 @@
+/* Navigation Bar Styles */
+.username-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #44b6cc; /* Circle color */
+    color: white; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 50px; /* Add space at the top */
+}
+
+/* Button Styles */
+.custom-btn-lightblue {
+    background-color: #44b6cc; /* Button color */
+    color: white; /* Text color */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for buttons */
+    margin: 5px; /* Space between buttons */
+}

@@ -1,0 +1,48 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa; /* Light background */
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    margin-bottom: 10px; /* Space below navbar */
+}
+
+.custom-btn-lightblue {
+    background-color: #44b6cc; /* Light blue background */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for buttons */
+    color: white; /* Text color */
+}
+
+/* Header Styles */
+header {
+    padding: 20px 0; /* Reduced padding for the header */
+}
+
+/* Form Styles */
+.login-form {
+    max-width: 400px; /* Limit width of form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Padding inside form */
+    border: 1px solid #ced4da; /* Border around form */
+    border-radius: 10px; /* Rounded corners for form */
+    background-color: #fff; /* White background */
+}
+
+label {
+    text-align: left; /* Left align labels */
+    margin-bottom: 5px; /* Add margin below labels */
+    display: block; /* Ensure labels take full width */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa; /* Footer background */
+    padding: 20px 0; /* Padding for footer */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}

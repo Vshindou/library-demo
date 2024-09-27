@@ -1,0 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%
+    // Invalidate the session and redirect to login.jsp
+    session.invalidate();
+    response.sendRedirect("login.jsp");
+%>

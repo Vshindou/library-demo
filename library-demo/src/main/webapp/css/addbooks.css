@@ -1,0 +1,58 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa; /* Light background */
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff; /* White background for navbar */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional shadow */
+}
+
+nav a {
+    text-decoration: none;
+    color: #000; /* Black text color */
+    margin: 0 15px; /* Space between links */
+}
+
+/* Form Styles */
+.add-book-form {
+    max-width: 400px; /* Limit width of form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Padding inside form */
+    border: 1px solid #ced4da; /* Border around form */
+    border-radius: 10px; /* Rounded corners for form */
+    background-color: #fff; /* White background */
+    margin-top: 50px; /* Space from the top */
+}
+
+label {
+    text-align: left; /* Left align labels */
+    margin-bottom: 5px; /* Add margin below labels */
+    display: block; /* Ensure labels take full width */
+}
+
+.custom-btn-lightblue {
+    background-color: #44b6cc; /* Custom button color */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for buttons */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer on hover */
+}
+
+/* Image Styles */
+.form-image {
+    max-width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav-logo {
+    width: 50px; /* Adjust size for navbar logo */
+    height: auto; /* Maintain aspect ratio */
+}
